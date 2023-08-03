@@ -1,4 +1,5 @@
-
+import os
+os.environ["MPLBACKEND"] = "agg"
 import streamlit as st
 import PIL
 from ultralytics import YOLO
